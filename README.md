@@ -3,7 +3,7 @@ docker-xelatex
 
 [![Docker Stars](https://img.shields.io/docker/stars/vipintm/xelatex.svg)](https://hub.docker.com/r/vipintm/xelatex/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/vipintm/xelatex.svg)](https://hub.docker.com/r/vipintm/xelatex/)
-[![Twitter](https://img.shields.io/twitter/url/https/hub.docker.com/r/vipintm/xelatex/.svg?style=social)](https://twitter.com/intent/tweet?text="Build latex using docker":&url=https://hub.docker.com/r/vipintm/xelatex/)
+[![Twitter](https://img.shields.io/twitter/url/https/hub.docker.com/r/vipintm/xelatex/.svg?style=social)](https://twitter.com/intent/tweet?text=Build%20latex%20using%20docker:&url=https://hub.docker.com/r/vipintm/xelatex/)
 
 
 Docker container used for compile XeLaTex documents and deploy a generated PDF file. This is based on [jpbernius/docker-xelatex](https://github.com/jpbernius/docker-xelatex)
