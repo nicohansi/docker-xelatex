@@ -6,7 +6,7 @@ docker-xelatex
 [![Twitter](https://img.shields.io/twitter/url/https/hub.docker.com/r/vipintm/xelatex/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://hub.docker.com/r/vipintm/xelatex/)
 
 
-Docker container used for compile XeLaTex documents and deploy a generated PDF file. This is based on [https://github.com/jpbernius/docker-xelatex](jpbernius/docker-xelatex)
+Docker container used for compile XeLaTex documents and deploy a generated PDF file. This is based on [jpbernius/docker-xelatex](https://github.com/jpbernius/docker-xelatex)
 
 ```
 docker run --rm -v $(shell pwd):/data vipintm/xelatex make
