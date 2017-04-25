@@ -1,5 +1,5 @@
 FROM debian:latest
-ENV maintainer Vipin Madhavanunni <vipmadha@gmail.com>
+LABEL maintainer "Vipin Madhavanunni <vipmadha@gmail.com>"
 
 LABEL version="1.1.1"
 
