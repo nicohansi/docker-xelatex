@@ -1,7 +1,7 @@
 FROM debian:latest
-MAINTAINER Jan Philip Bernius <janphilip@bernius.net>
+ENV maintainer Vipin Madhavanunni <vipmadha@gmail.com>
 
-LABEL version="1.1.0"
+LABEL version="1.1.1"
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -13,8 +13,8 @@ RUN apt-get update && \
   ca-certificates \
   lmodern \
   texlive-latex-base \
-# texlive-generic-extra \
-# texlive-fonts-extra \
+  texlive-generic-extra \
+  texlive-fonts-extra \
   texlive-fonts-recommended \
   texlive-generic-recommended \
   texlive-lang-english \
