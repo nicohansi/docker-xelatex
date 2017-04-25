@@ -1,15 +1,15 @@
 docker-xelatex
 ==============
 
-[![Docker Stars](https://img.shields.io/docker/stars/jpbernius/xelatex.svg)](https://hub.docker.com/r/vipintm/docker-xelatex/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/jpbernius/xelatex.svg)](https://hub.docker.com/r/vipintm/docker-xelatex/)
-[![Twitter](https://img.shields.io/twitter/url/https/hub.docker.com/r/vipintm/docker-xelatex/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
+[![Docker Stars](https://img.shields.io/docker/stars/vipintm/xelatex.svg)](https://hub.docker.com/r/vipintm/xelatex/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/vipintm/xelatex.svg)](https://hub.docker.com/r/vipintm/xelatex/)
+[![Twitter](https://img.shields.io/twitter/url/https/hub.docker.com/r/vipintm/xelatex/.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=https://hub.docker.com/r/vipintm/xelatex/)
 
 
-Docker container used for compile XeLaTex documents and deploy a generated PDF file.
+Docker container used for compile XeLaTex documents and deploy a generated PDF file. This is based on [https://github.com/jpbernius/docker-xelatex](jpbernius/docker-xelatex)
 
 ```
-docker run --rm -v $(shell pwd):/data vipintm/docker-xelatex make
+docker run --rm -v $(shell pwd):/data vipintm/xelatex make
 ```
 
 Example Makefile
