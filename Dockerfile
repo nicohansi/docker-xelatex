@@ -10,6 +10,7 @@ RUN apt-get update && \
   apt-get install --yes --no-install-recommends \
   make \
   git \
+  git-svn \
   ca-certificates \
   lmodern \
   texlive-latex-base \
