@@ -24,9 +24,16 @@ RUN apt-get update && \
   texlive-bibtex-extra \
   biber \
   fontconfig \
-  texlive-xetex && \
+  texlive-xetex \
+  cabextract \
+  xfonts-utils \
+  wget && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+WORKDIR /tmp
+RUN wget http://ftp.de.debian.org/debian/pool/contrib/m/msttcorefonts/ttf-mscorefonts-installer_3.6_all.deb
+RUN dpkg -i ttf-mscorefonts-installer_3.6_all.deb
 
 # Export the output data
 WORKDIR /data
