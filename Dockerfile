@@ -25,7 +25,7 @@ RUN apt-get update && \
   biber \
   fontconfig \
   texlive-xetex \
-  ttf-mscorefonts-installer && \
+  ttf-freefont && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
