@@ -25,6 +25,8 @@ RUN apt-get update && \
   biber \
   fontconfig \
   texlive-xetex \
+  cabextract \
+  xfonts-utils \
   wget && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
