@@ -10,7 +10,9 @@ RUN apt-get update && \
   apt-get install --yes --no-install-recommends \
   make \
   git \
+  git-svn \
   ca-certificates \
+  openssh-client \
   lmodern \
   texlive-latex-base \
   texlive-generic-extra \
@@ -27,7 +29,8 @@ RUN apt-get update && \
   texlive-xetex \
   cabextract \
   xfonts-utils \
-  wget && \
+  wget \
+  curl && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
