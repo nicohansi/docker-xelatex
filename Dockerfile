@@ -1,7 +1,7 @@
 FROM debian:latest
 LABEL maintainer "Vipin Madhavanunni <vipmadha@gmail.com>"
 
-LABEL version="1.1.1"
+LABEL version="1.1.2"
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -24,6 +24,11 @@ RUN apt-get update && \
   texlive-math-extra \
   texlive-latex-extra \
   texlive-bibtex-extra \
+  texlive-full \
+  fonts-freefont-ttf \
+  fonts-freefont-otf \
+  fonts-roboto \
+  fonts-roboto-fontface \
   biber \
   fontconfig \
   texlive-xetex \
