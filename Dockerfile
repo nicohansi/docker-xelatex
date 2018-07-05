@@ -34,6 +34,7 @@ RUN apt-get update && \
   texlive-xetex \
   cabextract \
   xfonts-utils \
+  libimage-exiftool-perl \
   wget \
   curl && \
   apt-get autoclean && apt-get --purge --yes autoremove && \
