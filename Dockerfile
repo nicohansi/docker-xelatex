@@ -29,7 +29,7 @@ RUN apt-get update && \
   fonts-freefont-otf \
   fonts-roboto \
   fonts-roboto-fontface \
-  linux-libertine \
+  fonts-linuxlibertine \
   biber \
   fontconfig \
   texlive-xetex \
